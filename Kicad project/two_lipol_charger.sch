@@ -63,7 +63,7 @@ CS3-
 Text GLabel 1800 2550 2    50   Input ~ 0
 FBPFC
 Text GLabel 1800 2650 2    50   Input ~ 0
-12v
+12V
 $Comp
 L power:GND #PWR0101
 U 1 1 5C389B84
@@ -419,11 +419,11 @@ Connection ~ 3850 4200
 Wire Wire Line
 	3850 4200 3850 4350
 Wire Wire Line
-	4350 4000 4600 4000
+	4350 4000 4450 4000
 Wire Wire Line
-	4600 4000 4600 3850
+	4450 4000 4450 3850
 Wire Wire Line
-	4600 3850 5400 3850
+	4450 3850 5400 3850
 Connection ~ 4350 4000
 $Comp
 L Device:R R60
@@ -474,11 +474,11 @@ Wire Wire Line
 	3150 4450 3250 4450
 Connection ~ 3250 4450
 Wire Wire Line
-	3750 4650 4700 4650
+	3750 4650 4500 4650
 Wire Wire Line
-	4700 4650 4700 3950
+	4500 4650 4500 3950
 Wire Wire Line
-	4700 3950 5400 3950
+	4500 3950 5400 3950
 Connection ~ 3750 4650
 Wire Wire Line
 	3750 4650 3750 4800
@@ -507,7 +507,7 @@ F 3 "~" H 4900 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 4050 4900 4250
+	4900 4050 4900 4150
 $Comp
 L power:GND #PWR0109
 U 1 1 5C3ACB62
@@ -1781,4 +1781,11 @@ Wire Wire Line
 	13400 4850 13400 4950
 Wire Wire Line
 	13400 4550 13400 4450
+Text GLabel 4850 4150 0    50   Input ~ 0
+VLPK
+Wire Wire Line
+	4850 4150 4900 4150
+Connection ~ 4900 4150
+Wire Wire Line
+	4900 4150 4900 4250
 $EndSCHEMATC
